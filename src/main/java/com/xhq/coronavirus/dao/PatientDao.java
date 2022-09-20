@@ -1,6 +1,4 @@
-package com.xhq.coronavirus.dao;/*
-Created by shkstart on 2020/2/23.
-*/
+package com.xhq.coronavirus.dao;
 
         import com.xhq.coronavirus.entity.Base;
         import com.xhq.coronavirus.entity.Patient;

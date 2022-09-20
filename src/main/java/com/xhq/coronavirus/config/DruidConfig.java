@@ -1,6 +1,4 @@
-package com.xhq.coronavirus.config;/*
-Created by shkstart on 2020/2/23.
-*/
+package com.xhq.coronavirus.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;

@@ -1,6 +1,4 @@
-package com.xhq.coronavirus.config;/*
-Created by shkstart on 2020/2/23.
-*/
+package com.xhq.coronavirus.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -11,6 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 public class MyMvcConfig extends WebMvcConfigurationSupport {
 
     //静态资源释放
+    @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:/static/");
